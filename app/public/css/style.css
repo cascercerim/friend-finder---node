@@ -1,0 +1,104 @@
+html{
+
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+.container-fluid{
+    padding-left: 120px;
+    padding: 15px;
+}
+.input-field{
+    padding: 10px;
+}
+
+
+
+.jumbotron{
+    /* background: #ededed; */
+    color: #0f0f0f;
+    float: auto;
+    width: 1200px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.line{
+    background: lightslategray;
+}
+
+.mag-glass{
+    float: left;
+    clear: both;
+    margin-top: 12px;
+    margin-right: 15px;
+} 
+.nav-wrapper{
+background: #5bb0bd;
+}
+.display-top{
+    text-align: center;
+}
+
+ul, li{
+    display: flex-wrap;
+    word-spacing: 5px;;
+    display: inline-block;
+    padding-top: 7px;;
+    background: #5bb0bd;
+    text-transform: uppercase;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    float: left; 
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom:20px;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    word-spacing: 2px;
+}
+p{
+    /* float: left; */
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn, .btn-bottom{
+    background: #5bb0bd;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    margin-left: 15px;
+}
+.bottom{
+    padding-left: 120px;
+    width: auto;
+    position: relative;
+    display: inline-block;
+}
+.bottom, a{
+    color: white;
+    text-align: center;
+}
+
+.container{
+    width: 800px;
+    margin-left: 300px;
+    text-align: center;
+}
+.API, .github{
+    display: inline-block;
+}
+#resultsModal img {
+    overflow: hidden;
+    width: 500px;
+}
+footer{
+    background: #5bb0bd;
+    color: white;
+    text-align: auto;
+}
